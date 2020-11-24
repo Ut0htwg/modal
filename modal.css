@@ -64,7 +64,7 @@ body>header>h1 {
 }
 
 .modal-content {
-    background-color: #eee;
+    background-color: rgba(240, 240, 240, 0);
     -webkit-transition: background-color 3s linear;
     -moz-transition: background-color 3s linear;
     -o-transition: background-color 3s linear;
@@ -75,9 +75,9 @@ body>header>h1 {
     height: 100%;
 }
 
-.modal-content:focus {
-    background-color: #e00;
-}
+/* .modal-content:focus {
+    background-color: #eee;
+} */
 
 @media screen and (min-width: 560px) {
     .modal-content {
@@ -89,8 +89,12 @@ body>header>h1 {
         /* overflow-y: scroll; */
     }
     .modal-content:focus {
-        background-color: #e00;
+        background-color: #eee;
     }
+
+    /* .modal-content:blur {
+        background-color: #eee;
+    } */
   }
 
 /* The Close Button */
