@@ -12,6 +12,7 @@ const toClose = document.querySelector('.close');
 openModal.onclick = function() {
   modal.style.display = "block";
   modalContent.focus();
+  // openModal.blur();
 }
 
 // When the user clicks on <span> (x), close the modal
