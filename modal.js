@@ -37,3 +37,5 @@ for(let i=0; i < modalButtons.length; i+=1) {
     modal.style.display = "none";
   }
 }
+
+// modalContent.focus();
